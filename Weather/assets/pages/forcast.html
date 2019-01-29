@@ -1,0 +1,37 @@
+<div class="container">
+<h1 style="color:white">This is Forcast<em> {{ city }} </em></h1> 
+
+
+
+<nav aria-label="..."  class="col-md-offset-4">
+  <ul class="pagination">
+   <!--  <li class=""><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li> -->
+            <li ng-class="{'active': page === '1'}"><a  href="#!forecast/1">1</a></li>
+            <li ng-class="{'active': page === '2'}"><a href="#!forecast/2">2</a></li>
+            <li ng-class="{'active': page === '3'}"><a href="#!forecast/3">3 </a></li>
+            <li ng-class="{'active': page === '4'}"><a href="#!forecast/4">4 </a></li>
+            <li ng-class="{'active': page === '5'}"><a href="#!forecast/5">5</a></li>
+            <li ng-class="{'active': page === '6'}"><a href="#!forecast/6">6</a></li>
+            <li ng-class="{'active': page === '7'}"><a href="#!forecast/7">7</a></li>
+            <li ng-class="{'active': page === '8'}"><a href="#!forecast/8">8</a></li>
+            <li ng-class="{'active': page === '9'}"><a href="#!forecast/9">9</a></li>
+            <li ng-class="{'active': page === '10'}"><a href="#!forecast/10">10</a></li>
+           
+
+
+  </ul>
+</nav>
+
+
+
+		
+
+
+
+<div class="row" ng-repeat = "w in ProductCollections.payload">
+  
+  
+    <details animal-And-Birds="w"></details>
+
+</div>
+

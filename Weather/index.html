@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Weather app</title>
+	<script  type="text/javascript" src="https://code.angularjs.org/1.6.9/angular.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.6.9/angular-route.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.6.9/angular-resource.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-default nav">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Angular WeatherApp</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#/">Home</a></li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+<div ng-view></div>
+
+<script type="text/javascript" src="assets/app.js"></script>
+<script type="text/javascript" src="assets/controller.js"></script>
+<script type="text/javascript" src="assets/directive.js"></script>
+<script type="text/javascript" src="assets/route.js"></script>
+<script type="text/javascript" src="assets/service.js"></script>
+
+</body>
+</html>
